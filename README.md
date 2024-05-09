@@ -15,16 +15,17 @@ Finger Tarp is a hands-free digital drawing canvas that allows users to draw on 
 - **Libraries:** OpenCV, NumPy
 
 ## Usage
-- **Setup: Attach a brightly colored cap to your fingertip. Ensure the color is consistent and distinct from your background.
-- **Initialization: Start the application and position your finger in front of your webcam.
-- **Interaction: Move your finger to draw. The application tracks your finger's position and movement, rendering these as brush strokes on your digital canvas.
-- **System Architecture
+- **Setup**: Attach a brightly colored cap to your fingertip. Ensure the color is consistent and distinct from your background.
+- **Initialization**: Start the application and position your finger in front of your webcam.
+- **Interaction**: Move your finger to draw. The application tracks your finger's position and movement, rendering these as brush strokes on your digital canvas.
+
+## System Architecture
 
 The application processes input in several stages:
 
-- **Color Detection: Identifies the color of the cap using the HSV color space.
-- **Finger Tip Tracking: Utilizes contour detection to track the movement of the colored cap.
-- **Drawing: Converts the tracked movements into brush strokes on the canvas.
+- **Color Detection**: Identifies the color of the cap using the HSV color space.
+- **Finger Tip Tracking**: Utilizes contour detection to track the movement of the colored cap.
+- **Drawing**: Converts the tracked movements into brush strokes on the canvas.
 
 ## How It Works
 The procedure is explained in four main steps:
@@ -43,14 +44,13 @@ The procedure is explained in four main steps:
 The Finger Tarp allows drawing as if in the air, and can be enhanced for more precise hand gesture tracking. Future developments could include more colors, brushes, textures, and saving options, potentially replacing traditional whiteboards in classrooms.
 
 ## Block Diagram
+![Block Diagram - Flow](https://github.com/Nishieee/Finger-Tarp/blob/main/Images/Block%20Diagram.png)
 
 
-
-
-Future Scope
-Gesture Recognition Enhancement: Improve the accuracy and responsiveness of gesture tracking.
-Brush Customization: Introduce more options for brush size, color, and texture.
-Save and Export Options: Allow users to save and export their drawings in various formats.
+## Future Scope
+- **Gesture Recognition Enhancement**: Improve the accuracy and responsiveness of gesture tracking.
+- **Brush Customization**: Introduce more options for brush size, color, and texture.
+- **Save and Export Options**: Allow users to save and export their drawings in various formats.
 
 
 
